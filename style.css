@@ -1,0 +1,202 @@
+*,html,body {
+margin: 0px;
+padding: 0px;
+}
+body {
+}
+.bg {
+background-color: cornsilk;
+width: 100vw;
+height: 100vh;
+position: relative;
+}
+   
+.seluruhdiv {
+display: flex;
+
+}
+
+.judul { 
+padding: 10px;
+   
+    justify-content:baseline;
+    display: flex;
+    background-color: midnightblue ;
+     color: aliceblue;
+     
+     font-family: Arial, Helvetica, sans-serif;
+}
+.font {
+font-size: 27px;}
+.list {
+    background-color: cornsilk;
+    width: 20vw;
+    border-right: 10px solid black;
+    min-height: 70%;
+}
+li {
+    list-style-type: none;
+padding: 15px;
+font-size: 16px;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+justify-content: center;
+}
+div input {
+width: 70%;
+height :30px;
+
+}
+.samping {
+display:flex;
+justify-content:center; 
+min-height: 80%;
+background-color:cornsilk;
+width: 80vw;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+}
+
+
+.info {
+display: flex;
+font-size: 19px;
+font-weight: 700;
+}
+.pindah {
+text-decoration: none;
+color: black;
+
+}
+#button {
+border-radius: 10px;
+padding: 10px;
+border: none;
+background-color: maroon;
+color:aliceblue;
+font-weight: 700;
+text-align: center;
+}
+#button2, #button3 {
+border-radius: 10px;
+padding: 4px;
+border: none;
+background-color: maroon;
+color:aliceblue;
+font-weight: 700;
+height: 35px;
+margin-top: 64px;
+width: 100px;
+}
+#button:hover{
+    background-color: blueviolet;
+ animation: 0.5s ease-in-out;
+    cursor: pointer;
+}
+#button2:hover ,#button3:hover {
+    background-color: blueviolet;
+ animation: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.catatan {
+display: flex;
+align-items: center;
+justify-content: center;
+border: 5px solid black;
+padding: 10px;
+border-radius: 15px;
+background-color: rgb(40, 138, 163);
+color: azure;
+width: 65vw;
+font-family: Arial, Helvetica, sans-serif;
+min-height: 70vh;
+}
+.catatan2 {
+   min-height: 70vh;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 24px;
+border: 5px solid black;
+padding: 10px;
+border-radius: 15px;
+background-color: rgb(40, 138, 163);
+color: azure;
+width: 65vw;
+font-family: Arial, Helvetica, sans-serif;
+}
+#tombolhapus {border-radius: 10px;
+border: none;
+background-color: red;
+color:aliceblue;
+font-weight: 700;
+padding: 10px;
+margin-top: 16px;
+}
+#tombolhapus:hover{
+    background-color: blueviolet;
+ animation: 0.5s ease-in-out;
+    cursor: pointer;}
+
+    #editinput {
+        min-height: 30px; 
+width: 75vw;
+
+
+    }
+
+    @media (max-width : 768px) {
+        .judul {
+padding: 10px;
+width: 100vw;
+        }
+        body {
+background-color: cornsilk;
+        }
+       
+        .font{
+            font-size: 20px ;
+        }
+#catataninput {
+width: 70vw;
+
+}
+#editinput {
+    padding: 0px; margin: 0%;
+width: 65vw;
+height: 20px;
+}
+.seluruhdiv {
+   flex-direction: column;
+
+}
+.catatan {
+min-height: 70vh;
+width: 85vw;
+}
+.catatan2 {
+min-height: 70vh;
+width: 85vw;
+}
+.list {
+   width: 100%;
+   border: none;
+   min-height: 10dvh;
+    padding: none;
+    margin: none;
+} 
+ul li{  
+    padding:8px;
+        list-style-type: none;
+
+  /* border-color:aqua  */
+  font-size: 18px;
+}
+.samping {
+    width:100%;
+    display: flex;
+}
+    }
+
